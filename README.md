@@ -2,4 +2,4 @@
 
 > 老邓的杂货箱
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://github.com/dengxiuxin/WeChatApplet/blob/master/imgs/laodeng.png)
