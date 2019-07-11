@@ -1,0 +1,15 @@
+<!--pages/user/user.wxml-->
+<text>my user</text>
+
+
+<van-tabbar active="{{ active }}" bind:change="onChange" active-color="#07c160" inactive-color="#000">
+  <van-tabbar-item name="res/res">
+    <image slot="icon" src="{{ icon.normal }}" mode="aspectFit" />
+    <image slot="icon-active" src="{{ icon.active }}" mode="aspectFit" /> 主页
+  </van-tabbar-item>
+
+  <van-tabbar-item name="user/user">
+    <image slot="icon" src="{{ icon2.normal }}" mode="aspectFit" />
+    <image slot="icon-active" src="{{ icon2.active }}" mode="aspectFit" /> 个人
+  </van-tabbar-item>
+</van-tabbar>

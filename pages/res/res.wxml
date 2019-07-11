@@ -1,0 +1,75 @@
+<!-- <image src='../../imgs/logos.png' class='imgs'></image> -->
+<view class='newbar van-hairline--surround'>
+  <view class='text'>
+    <view class='textbar'>公告栏</view>
+    <view class='wor'>
+      <text class='p'>
+        哈喽！我是LaoDeng
+          欢迎来到我的微信小程序，该小程序是以学习为主，
+          主要做一些手机上的日常功能,(*^__^*) 嘻嘻………
+    </text>
+      <text>
+    
+    </text>
+    </view>
+  </view>
+
+</view>
+<!-- <van-notice-bar left-icon="http://bpic.588ku.com/element_origin_min_pic/01/36/25/38573c0d5a54160.jpg" text="{{text}}" /> -->
+<van-notice-bar
+  mode="closeable"
+  text="{{text}}"
+/>
+<view class='main'>
+
+  <van-row gutter="20">
+
+    <van-col span="8">
+      <view class='box'>
+        <van-button round type="info" size="small">日常简书</van-button>
+      </view>
+    </van-col>
+
+    <van-col span="8">
+      <view class='box'>
+        <van-button round type="info" size="small">往期记录</van-button>
+      </view>
+    </van-col>
+
+    <van-col span="8">
+      <view class='box'>
+        <van-button round type="info" size="small">建交互动</van-button>
+      </view>
+    </van-col>
+
+  </van-row>
+</view>
+<view class='forecho'>
+  <view class='inde'>小应用</view>
+  <view class='forec van-hairline--surround' catchtap="comuter_onclick">
+      <van-card desc="科学计算机，我们就先从简单的计算机开始吧！" title="计算机" thumb="{{ imageURL.img }}" />
+  </view>
+  <!-- <view class='forec van-hairline--surround'>
+  <van-card desc="小红喝不完一杯珍珠奶茶，该怎么把它扔掉？ 答：先把奶茶倒进水槽..." title="垃圾分类" thumb="{{ imageURL.img1 }}" />
+  </view>
+  <view class='forec van-hairline--surround'>
+  <van-card desc="查看今天的黄道吉日。" title="日历" thumb="{{ imageURL.img2 }}" />
+  </view> -->
+  <swiper>
+
+  </swiper>
+  <text class='text'>玩命开发中...</text>
+</view>
+
+
+<van-tabbar active="{{ active }}" bind:change="onChange" active-color="#07c160" inactive-color="#000">
+  <van-tabbar-item name="res/res">
+    <image slot="icon" src="{{ icon.normal }}" mode="aspectFit" />
+    <image slot="icon-active" src="{{ icon.active }}" mode="aspectFit" /> 主页
+  </van-tabbar-item>
+
+  <van-tabbar-item name="user/user">
+    <image slot="icon" src="{{ icon2.normal }}" mode="aspectFit" />
+    <image slot="icon-active" src="{{ icon2.active }}" mode="aspectFit" /> 个人
+  </van-tabbar-item>
+</van-tabbar>

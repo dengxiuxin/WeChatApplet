@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/res/res",
+    "pages/user/user",
+    "pages/computer/computer"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "老邓的杂货箱",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-popup": "zanui/popup/index",
+    "van-button": "zanui/button/index",
+    "van-badge": "zanui/badge/index",
+    "van-badge-group": "zanui/badge-group/index",
+    "van-row": "zanui/row/index",
+    "van-col": "zanui/col/index",
+    "van-tabbar": "zanui/tabbar/index",
+    "van-tabbar-item": "zanui/tabbar-item/index",
+    "van-notice-bar": "zanui/notice-bar/index",
+    "van-icon": "zanui/icon/index",
+    "van-card": "zanui/card/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}
